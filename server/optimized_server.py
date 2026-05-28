@@ -12,13 +12,11 @@ server_proc=subprocess.Popen(
 
         "--dtype","half",
 
-        "--gpu-memory-utilization","0.95",
+        "--gpu-memory-utilization","0.85",
 
-        "--max-num-seqs","64",
+        "--max-num-seqs","32",
 
         "--max-model-len","1024",
-
-        "--enable-prefix-caching",
 
         "--disable-log-requests",
 
