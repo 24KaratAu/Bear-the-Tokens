@@ -14,7 +14,7 @@ server_proc=subprocess.Popen(
 
         "--gpu-memory-utilization","0.85",
 
-        "--max-num-seqs","40",
+        "--max-num-seqs","36",
 
         "--max-model-len","1024",
 
