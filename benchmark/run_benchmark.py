@@ -31,6 +31,8 @@ benchmark_cmd=[
 
     "--result-filename","benchmark.json",
 
+    "--temperature","0",
+
     "--label","optimized"
 ]
 
