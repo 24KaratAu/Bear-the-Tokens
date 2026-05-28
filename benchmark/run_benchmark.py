@@ -15,7 +15,7 @@ benchmark_cmd=[
 
     "--tokenizer","Qwen/Qwen2.5-0.5B",
 
-    "--max-concurrency","50",
+    "--max-concurrency","32",
 
     "--num-prompts","200",
 

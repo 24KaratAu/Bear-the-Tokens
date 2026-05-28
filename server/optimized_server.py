@@ -12,9 +12,10 @@ server_proc=subprocess.Popen(
 
         "--dtype","half",
 
-        "--gpu-memory-utilization","0.85",
+        "--gpu-memory-utilization","0.88",
+        "--enforce-eager",
 
-        "--max-num-seqs","36",
+        "--max-num-seqs","28",
 
         "--max-model-len","1024",
 
