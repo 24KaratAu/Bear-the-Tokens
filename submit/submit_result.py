@@ -1,7 +1,7 @@
 from h2loop_bench import result
 
 result(
-    name="AVNISH",
+    name="NoobMaster",
 
     email="avnishuba@outlook.com",
 
